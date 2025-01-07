@@ -11,37 +11,37 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $email = trim($_POST['email']);
         $password = $_POST['mdp'];
 
-		if (!empty($username) && !empty($email) && !empty($password)) {
-			if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-				// Vérification du mot de passe avec une expression régulière
-				$password_regex = '/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{7,}$/';
-				
-				if (preg_match($password_regex, $password)) {
-					// Vérification de l'existence de l'utilisateur
-					$stmt = $pdo->prepare("SELECT * FROM account WHERE Email = ?");
-					$stmt->execute([$email]);
-					if ($stmt->rowCount() > 0) {
-						echo "Un compte avec cet email existe déjà.";
-					} else {
-						// Inscription
-						$password_hash = password_hash($password, PASSWORD_DEFAULT);
-						$stmt = $pdo->prepare("INSERT INTO account (user, Email, mdp) VALUES (?, ?, ?)");
-						if ($stmt->execute([$username, $email, $password_hash])) {
-							echo "Inscription réussie. <a href='login.php'>Connectez-vous</a>";
-						} else {
-							echo "Erreur lors de l'inscription.";
-						}
-					}
-				} else {
-					echo "Le mot de passe doit contenir au moins 7 caractères, dont une majuscule, une minuscule, et un chiffre.";
-				}
-			} else {
-				echo "Adresse e-mail invalide.";
-			}
-		} else {
-			echo "Tous les champs sont requis.";
-		}
-		
+if (!empty($username) && !empty($email) && !empty($password)) {
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // Vérification du mot de passe avec une expression régulière
+        $password_regex = '/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{7,}$/';
+        
+        if (preg_match($password_regex, $password)) {
+            // Vérification de l'existence de l'utilisateur
+            $stmt = $pdo->prepare("SELECT * FROM account WHERE Email = ?");
+            $stmt->execute([$email]);
+            if ($stmt->rowCount() > 0) {
+                echo "Un compte avec cet email existe déjà.";
+            } else {
+                // Inscription
+                $password_hash = password_hash($password, PASSWORD_DEFAULT);
+                $stmt = $pdo->prepare("INSERT INTO account (user, Email, mdp) VALUES (?, ?, ?)");
+                if ($stmt->execute([$username, $email, $password_hash])) {
+                    echo "Inscription réussie. <a href='login.php'>Connectez-vous</a>";
+                } else {
+                    echo "Erreur lors de l'inscription.";
+                }
+            }
+        } else {
+            echo "Le mot de passe doit contenir au moins 7 caractères, dont une majuscule, une minuscule, et un chiffre.";
+        }
+    } else {
+        echo "Adresse e-mail invalide.";
+    }
+} else {
+    echo "Tous les champs sont requis.";
+}
+
     } elseif ($submit === 'login') {
         $email = trim($_POST['email']);
         $password = $_POST['mdp'];
@@ -91,26 +91,21 @@ if (isset($_COOKIE['session'])) {
 }
 ?>
 
-<div style="    display: flex
-;
-    justify-content: center;
-    padding-top: 5%;">
-    <?php if ($user): ?>
+    <?php if ($user): ?><section>
+		<div style="display: flex;justify-content:center;padding-top:2%;flex-direction: column;">
+
         <!-- Hub pour l'utilisateur connecté -->
         <div class="hub">
             <h2>Bienvenue, <?= htmlspecialchars($user['user']); ?> !</h2>
             <p>Vous êtes connecté. Bienvenue dans votre hub utilisateur.</p>
             <a href="./partials/logout.php" class="logout-btn">Se déconnecter</a>
-
-        </div>
-		<?php include "./partials/cart.php" ;?>
-
-
-
-
+        </div><hr>
+		<?php      include "./partials/cart.php"?> </section>
 
     <?php else: ?>
+		
         <!-- Formulaire d'inscription et de connexion -->
+		 <div style="margin: auto;display: flex;justify-content: center;padding-top:2%">
 		 <div class="main">
         <input type="checkbox" id="chk" aria-hidden="true">
 

@@ -13,7 +13,7 @@ include "./partials/funtion.php";
   <link rel="stylesheet" href="./styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
   <script src="./partials/code.js" defer></script>
-  <link rel="shortcut icon" type="image/x-icon" href="./assests/rick00000_logo_devellopement_durable_technologie_c2a4787f-d889-4b54-b67d-7c18a962bc2a-removebg-preview.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="./assests/revive-high-resolution-logo-removebg-preview (1).png" />
 
 
 
@@ -24,7 +24,7 @@ include "./partials/funtion.php";
     <nav>
       <div class="logo">
         <a href="#">
-          <img src="./assests/rick00000_logo_devellopement_durable_technologie_c2a4787f-d889-4b54-b67d-7c18a962bc2a-removebg-preview.png" alt="">
+          <img src="./assests/revive-high-resolution-logo-removebg-preview (1).png" alt="">
         </a>
       </div>
       <div class="menu">

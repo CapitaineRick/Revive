@@ -1,7 +1,7 @@
 
 <footer style="background-color: #333; color: white; padding: 20px; text-align: center;">
     <div>
-        <p>&copy; <?= date("Y"); ?> VotreEntreprise. Tous droits réservés.</p>
+        <p>&copy; <?= date("Y"); ?> Revive. Tous droits réservés.</p>
         <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px;">
             <li><a href="mentions-legales.php" style="color: #f2f2f2; text-decoration: none;">Mentions légales</a></li>
             <li><a href="politique-confidentialite.php" style="color: #f2f2f2; text-decoration: none;">Politique de confidentialité</a></li>

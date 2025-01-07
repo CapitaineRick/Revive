@@ -71,7 +71,7 @@ include "./head.php";
         <img class="logo-reseau" src="./assests/pngtree-phone-icon-in-solid-circle-png-image_2380227-removebg-preview.png"><label for="">01 42 22 99 88 XX</label>
         </div>
         <div>
-        <img class="logo-reseau" src="./assests/Instagram_icon.png.webp" alt=""><a href="https://www.instagram.com/reviveipssi?igsh=MWU5d2NoMzlucnhneA=="></a></img><label for="">Instagram</label>
+        <a href="https://www.instagram.com/reviveipssi?igsh=MWU5d2NoMzlucnhneA=="><img class="logo-reseau" src="./assests/Instagram_icon.png.webp" alt=""></img><label target="_blank">@reviveipssi</label></a> 
         </div>
 <div>
 <img class="logo-reseau" src="./assests/Logo_of_Twitter.svg.png" alt=""><a href=""></a></img><label for="">Twitter</label>

@@ -32,13 +32,13 @@
     <div class="Agir">
         <img src="./assests/Reconditioné.jpeg" alt="Solution">
         <h2> OPTEZ RECONDITIONE</h2>
-        <p> En effet le Reconditioné peut limité la polution émise par l'homme, En donnant une seconde vie à votre appareil. Cela limitera la production des grandes societés tel que "Samsung" ou "Apple" qui sorte un nouveau modèle chaque année 
+        <p> En effet le Reconditioné peut limité la polution émise par l'homme, En donnant une seconde vie à votre appareil. Cela limitera la production des grandes societés tel que "Samsung" ou "Apple" qui sorte un nouveau modèle chaque année.
         </p>
     </div>
     <div class="Wait">
         <img src="./assests/Onvsatt.jpg" alt="Attendre">
         <h2> QU ATTENDEZ VOUS ?</h2>
-        <p> Rejoignez le mouvement plus on est de fou plus on ri</p>
+        <p> Rejoignez le mouvement plus on est de fou plus on ri ! </p>
     </div>
 
     </div>

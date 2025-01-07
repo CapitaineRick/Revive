@@ -25,7 +25,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
+    height: 125px;
+
 
 }
 
@@ -36,7 +38,7 @@ nav {
 }
 
 .logo img {
-    height: 100px;
+    height: 200px;
 }
 
 .menu {
@@ -49,6 +51,7 @@ nav {
     font-weight: 600;
     color: #1a202c;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
 .menu a:hover {
