@@ -43,8 +43,8 @@ if ($product_name === null) {
 
 
 
-    <?php include "./partials/footer.php"; ?>
 </section>
+<?php include "./partials/footer.php"; ?>
 
 </body>
 </html>

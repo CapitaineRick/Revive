@@ -103,9 +103,9 @@ $produits_piece = $stmt->fetchAll();
 
 
 
-    <?php include "./partials/footer.php";?>
 
 </section>
+<?php include "./partials/footer.php";?>
 
 
 </body>

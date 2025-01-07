@@ -113,8 +113,8 @@
         </div>
     </form>
 
-    <?php include "./partials/footer.php"; ?>
 </section>
+<?php include "./partials/footer.php"; ?>
 
 <script>
     const canvas = document.getElementById('signatureCanvas');
