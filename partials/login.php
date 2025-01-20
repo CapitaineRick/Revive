@@ -1,4 +1,5 @@
 <?php 
+
 include "./Config/pdo.php";
 $cookie_duration=60*60*24*7;
 $message = '';
