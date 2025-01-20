@@ -36,14 +36,6 @@ CREATE TABLE `account` (
   `session_cookie` varchar(64) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Déchargement des données de la table `account`
---
-
-INSERT INTO `account` (`id`, `user`, `Email`, `mdp`, `date_create`, `session_cookie`) VALUES
-(9, 'admin', 'sebastien.78.fernandes@outlook.fr', '$2y$10$qPKJxKk627QG286XQ8bTv.V/modrV1uXazs1O.heY58iAS59FygRu', '2025-01-07', '72f3d5e5911e9a8806d53748307109d8f5f3885fee27ecded490007626bf38e9');
-
--- --------------------------------------------------------
 
 --
 -- Structure de la table `orders`
