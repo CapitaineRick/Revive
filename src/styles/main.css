@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("../assests/fond_decran_naturel_noir_et_vert_background_dun_site__f87f2190-1312-4983-ac0c-6bc423ca8eac.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -312,7 +312,7 @@ section {
     height: 500px;
     background: red;
     overflow: hidden;
-    background: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=400") no-repeat center/cover;
+    background: url("../assests/fond_decran_naturel_noir_et_vert_background_dun_site__f87f2190-1312-4983-ac0c-6bc423ca8eac.png") no-repeat center/cover;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
 }
@@ -425,7 +425,7 @@ section {
 
 /* Hero section */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assests/Nature.jpg') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -490,7 +490,7 @@ section {
 
 /* Histoire page styles */
 .body_histoire {
-    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("../assests/Nature2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

@@ -40,10 +40,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 function displayProduct(product) {
     const productSection = document.getElementById('product-section');
     
+    // Utiliser l'image spécifique du produit ou une image par défaut
+    let imagePath = './assests/photo/Ryzen 7 OC.png'; // Image par défaut
+    
+    // Mapper certains produits à leurs images spécifiques
+    if (product.nom.includes('PlayStation') || product.nom.includes('PS5')) {
+        imagePath = './assests/photo/PS5 Slim.png';
+    } else if (product.nom.includes('HP') || product.nom.includes('Inspiron')) {
+        imagePath = './assests/photo/PC Portable HP 15-fd.png';
+    } else if (product.nom.includes('Câble') || product.nom.includes('USB')) {
+        imagePath = './assests/photo/Chargeur USB.png';
+    }
+    
     productSection.innerHTML = `
         <h1>${product.nom}</h1>
         <div class="produits">
-            <img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600" alt="${product.nom}">
+            <img src="${imagePath}" alt="${product.nom}">
             <div class="description_produit">
                 <p><strong>Type:</strong> ${product.type_produit}</p>
                 <p><strong>État produit:</strong> ${product.etat_produit}</p>
