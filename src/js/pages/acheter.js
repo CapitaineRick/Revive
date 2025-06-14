@@ -47,18 +47,6 @@ function displayProductsByCategory(products, category, containerId) {
 }
 
 function createProductCard(product) {
-    // Utiliser l'image spécifique du produit ou une image par défaut
-    let imagePath = './assests/photo/Ryzen 7 OC.png'; // Image par défaut
-    
-    // Mapper certains produits à leurs images spécifiques
-    if (product.nom.includes('PlayStation') || product.nom.includes('PS5')) {
-        imagePath = './assests/photo/PS5 Slim.png';
-    } else if (product.nom.includes('HP') || product.nom.includes('Inspiron')) {
-        imagePath = './assests/photo/PC Portable HP 15-fd.png';
-    } else if (product.nom.includes('Câble') || product.nom.includes('USB')) {
-        imagePath = './assests/photo/Chargeur USB.png';
-    }
-    
     return `
         <div class="produit" style="position: relative;">
             <div class="product-name" style="position: absolute; z-index: 1; top: 8px; left: 1%; background-color: lightgrey; padding: 1%; border: solid lightgrey 1px; border-radius: 5px; opacity: 70%; max-width: 150px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">
@@ -70,7 +58,7 @@ function createProductCard(product) {
             </p>
             
             <a href="/product.html?id=${product.id}" style="border: none; background: none; padding: 0;">
-                <img src="${imagePath}" alt="${product.nom}" class="product-image">
+                <img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400" alt="${product.nom}" class="product-image">
             </a>
         </div>
     `;

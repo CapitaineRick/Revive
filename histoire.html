@@ -3,90 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revive</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Notre Histoire - Revive</title>
+    <link rel="stylesheet" href="./src/styles/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="./assests/revive-high-resolution-logo-removebg-preview (1).png" />
 </head>
 <body class="body_histoire">
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="#">
-                    <img src="./assests/revive-high-resolution-logo-removebg-preview (1).png" alt="">
-                </a>
-            </div>
-            <div class="menu">
-                <a href="./index.html">Home</a>
-                <div class="dropdown">
-                    <a href="./acheter.html">Achat</a>
-                    <div class="dropdown-content">
-                        <a href="./products.html?category=Ordinateur">Ordinateur</a>
-                        <a href="./products.html?category=Consoles">Consoles</a>
-                        <a href="./products.html?category=Pièces détachées">Piece détachées</a>
-                    </div>
-                </div>
-                <a href="./revendre.html">Revente</a>
-                <a href="./histoire.html">Histoire</a>
-                <a href="./contact.html">Contact</a>
-            </div>
-            <div class="menu">
-                <div class="dropdown">
-                    <a href="./account.html"><img id="account_img" src="./assests/la-personne.png" alt=""></a>
-                    <span id="username-display"></span>
-                    <div class="dropdown-content" id="account-dropdown">
-                        <a href="./account.html">Se connecter</a>
-                    </div>
-                </div>
-            </div>
-            <div class="menu" id="cart-menu" style="display: none;">
-                <div class="dropdown">
-                    <a href="#"><img id="cart_img" src="./assests/shopping-cart.png" alt=""></a>
-                    <div class="dropdown-content" id="cart-dropdown">
-                        <div id="cart-content">
-                            <p>Votre panier est vide.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <div class="histoire">
-        <h1>Voici la grande histoire de Revive</h1>
-        <h3>Préparez le popcorn</h3>
-        <button class="button" role="button">Je vous écoute !</button>
-    </div>
+    <header id="header"></header>
     
-    <div class="container_histoire">
-        <div class="idée">
-            <img src="./assests/Idée.jpg" alt="Idée">
-            <h2>Au commencement, notre équipe ...</h2>
-            <p>S'est rendu compte de la situation écologique dans laquelle l'être humain s'est mise.</p>
-            <p>La fonte des glaces, la destruction des forêts, et encore de nombreuses catastrophes dues à l'activité humaine.</p>
-            <p>Nous utilisons aussi beaucoup de matériel électronique comme notre smartphone, votre ordinateur portable, et j'en passe...</p>
-            <p>Mais savez-vous que ces matériaux sont très nocifs pour la nature ? Que ce soit l'énergie utilisée, le temps de fabrication, LES DÉPÔTS SAUVAGES !</p>
+    <main>
+        <div class="histoire">
+            <h1>Voici la grande histoire de Revive</h1>
+            <h3>Préparez le popcorn</h3>
+            <button class="button" role="button">Je vous écoute !</button>
         </div>
+        
+        <div class="container_histoire">
+            <div class="idée">
+                <img src="https://images.pexels.com/photos/355952/pexels-photo-355952.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Idée">
+                <h2>Au commencement, notre équipe ...</h2>
+                <p>S'est rendu compte de la situation écologique dans laquelle l'être humain s'est mise.</p>
+                <p>La fonte des glaces, la destruction des forêts, et encore de nombreuses catastrophes dues à l'activité humaine.</p>
+                <p>Nous utilisons aussi beaucoup de matériel électronique comme notre smartphone, votre ordinateur portable, et j'en passe...</p>
+                <p>Mais savez-vous que ces matériaux sont très nocifs pour la nature ? Que ce soit l'énergie utilisée, le temps de fabrication, LES DÉPÔTS SAUVAGES !</p>
+            </div>
 
-        <div class="Solution">
-            <img src="./assests/Ainsi.jpg" alt="Ainsi">
-            <h2>C'est ainsi</h2>
-            <p>C'est ainsi que notre CEO, M. Tony Ripaud, chercha des personnes sensibles à ce combat et eut l'idée de créer REVIVE la prochaine plus grande Star up Eco-responsale de France et peut être du monde !. Afin de combattre la nuisance de l'homme il y'a une solution !</p>
+            <div class="Solution">
+                <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Ainsi">
+                <h2>C'est ainsi</h2>
+                <p>C'est ainsi que notre CEO, M. Tony Ripaud, chercha des personnes sensibles à ce combat et eut l'idée de créer REVIVE la prochaine plus grande Start-up Eco-responsable de France et peut-être du monde ! Afin de combattre la nuisance de l'homme il y a une solution !</p>
+            </div>
+
+            <div class="Agir">
+                <img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Solution">
+                <h2>OPTEZ RECONDITIONNÉ</h2>
+                <p>En effet le Reconditionné peut limiter la pollution émise par l'homme, En donnant une seconde vie à votre appareil. Cela limitera la production des grandes sociétés tel que "Samsung" ou "Apple" qui sortent un nouveau modèle chaque année.</p>
+            </div>
+
+            <div class="Wait">
+                <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Attendre">
+                <h2>QU'ATTENDEZ-VOUS ?</h2>
+                <p>Rejoignez le mouvement plus on est de fou plus on rit !</p>
+            </div>
         </div>
+    </main>
 
-        <div class="Agir">
-            <img src="./assests/Reconditioné.jpeg" alt="Solution">
-            <h2>OPTEZ RECONDITIONE</h2>
-            <p>En effet le Reconditioné peut limité la polution émise par l'homme, En donnant une seconde vie à votre appareil. Cela limitera la production des grandes societés tel que "Samsung" ou "Apple" qui sorte un nouveau modèle chaque année.</p>
-        </div>
-
-        <div class="Wait">
-            <img src="./assests/Onvsatt.jpg" alt="Attendre">
-            <h2>QU ATTENDEZ VOUS ?</h2>
-            <p>Rejoignez le mouvement plus on est de fou plus on ri !</p>
-        </div>
-    </div>
-
+    <footer id="footer"></footer>
+    
     <script type="module" src="./src/js/pages/histoire.js"></script>
 </body>
 </html>

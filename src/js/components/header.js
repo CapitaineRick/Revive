@@ -6,7 +6,7 @@ export async function loadHeader() {
         <nav>
             <div class="logo">
                 <a href="/">
-                    <img src="./assests/revive-high-resolution-logo-removebg-preview (1).png" alt="Revive Logo">
+                    <img src="./src/assets/revive-logo.png" alt="Revive Logo">
                 </a>
             </div>
             <div class="menu">
@@ -27,7 +27,7 @@ export async function loadHeader() {
             <div class="menu">
                 <div class="dropdown">
                     <a href="/account.html">
-                        <img id="account_img" src="./assests/la-personne.png" alt="Account">
+                        <img id="account_img" src="./src/assets/user-icon.png" alt="Account">
                     </a>
                     <span id="username-display"></span>
                     <div class="dropdown-content" id="account-dropdown">
@@ -38,7 +38,7 @@ export async function loadHeader() {
             <div class="menu" id="cart-menu" style="display: none;">
                 <div class="dropdown">
                     <a href="#" id="cart-toggle">
-                        <img id="cart_img" src="./assests/shopping-cart.png" alt="Cart">
+                        <img id="cart_img" src="./src/assets/cart-icon.png" alt="Cart">
                         <span id="cart-count" class="cart-count">0</span>
                     </a>
                     <div class="dropdown-content" id="cart-dropdown">

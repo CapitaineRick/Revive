@@ -3,114 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revive</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Acheter - Revive</title>
+    <link rel="stylesheet" href="./src/styles/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="./assests/revive-high-resolution-logo-removebg-preview (1).png" />
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="#">
-                    <img src="./assests/revive-high-resolution-logo-removebg-preview (1).png" alt="">
+    <header id="header"></header>
+    
+    <main>
+        <section>
+            <h1>Coup de cœur</h1>
+            <div class="liste_produits" id="coup-de-coeur">
+                <!-- Products will be loaded here -->
+            </div>
+
+            <h1>Ordinateurs</h1>
+            <div class="liste_produits" id="ordinateurs">
+                <!-- Products will be loaded here -->
+            </div>
+            <div class="moreoption">
+                <a href="/products.html?category=Ordinateur" class="option">
+                    <p>Plus d'options &rarr;</p>
                 </a>
             </div>
-            <div class="menu">
-                <a href="./index.html">Home</a>
-                <div class="dropdown">
-                    <a href="./acheter.html">Achat</a>
-                    <div class="dropdown-content">
-                        <a href="./products.html?category=Ordinateur">Ordinateur</a>
-                        <a href="./products.html?category=Consoles">Consoles</a>
-                        <a href="./products.html?category=Pièces détachées">Piece détachées</a>
-                    </div>
-                </div>
-                <a href="./revendre.html">Revente</a>
-                <a href="./histoire.html">Histoire</a>
-                <a href="./contact.html">Contact</a>
+
+            <h1>Consoles</h1>
+            <div class="liste_produits" id="consoles">
+                <!-- Products will be loaded here -->
             </div>
-            <div class="menu">
-                <div class="dropdown">
-                    <a href="./account.html"><img id="account_img" src="./assests/la-personne.png" alt=""></a>
-                    <span id="username-display"></span>
-                    <div class="dropdown-content" id="account-dropdown">
-                        <a href="./account.html">Se connecter</a>
-                    </div>
-                </div>
+            <div class="moreoption">
+                <a href="/products.html?category=Consoles" class="option">
+                    <p>Plus d'options &rarr;</p>
+                </a>
             </div>
-            <div class="menu" id="cart-menu" style="display: none;">
-                <div class="dropdown">
-                    <a href="#"><img id="cart_img" src="./assests/shopping-cart.png" alt=""></a>
-                    <div class="dropdown-content" id="cart-dropdown">
-                        <div id="cart-content">
-                            <p>Votre panier est vide.</p>
-                        </div>
-                    </div>
-                </div>
+
+            <h1>Accessoires</h1>
+            <div class="liste_produits" id="accessoires">
+                <!-- Products will be loaded here -->
             </div>
-        </nav>
-    </header>
+            <div class="moreoption">
+                <a href="/products.html?category=Accessoires" class="option">
+                    <p>Plus d'options &rarr;</p>
+                </a>
+            </div>
 
-    <section>
-        <h1>Coup de coeur</h1>
-        <div class="liste_produits" style="overflow-y: hidden;" id="coup-de-coeur">
-            <!-- Products will be loaded here -->
-        </div>
+            <h1>Pièces détachées</h1>
+            <div class="liste_produits" id="pieces-detachees">
+                <!-- Products will be loaded here -->
+            </div>
+            <div class="moreoption">
+                <a href="/products.html?category=Pièces détachées" class="option">
+                    <p>Plus d'options &rarr;</p>
+                </a>
+            </div>
+        </section>
+    </main>
 
-        <h1>Ordinateurs</h1>
-        <div class="liste_produits" style="overflow-y: hidden;" id="ordinateurs">
-            <!-- Products will be loaded here -->
-        </div>
-        <div class="moreoption">
-            <a href="./products.html?category=Ordinateur" class="option">
-                <p>Plus d'option &rarr;</p>
-            </a>
-        </div>
-
-        <h1>Consoles</h1>
-        <div class="liste_produits" style="overflow-y: hidden;" id="consoles">
-            <!-- Products will be loaded here -->
-        </div>
-        <div class="moreoption">
-            <a href="./products.html?category=Consoles" class="option">
-                <p>Plus d'option &rarr;</p>
-            </a>
-        </div>
-
-        <h1>Accessoires</h1>
-        <div class="liste_produits" style="overflow-y: hidden;" id="accessoires">
-            <!-- Products will be loaded here -->
-        </div>
-        <div class="moreoption">
-            <a href="./products.html?category=Accessoires" class="option">
-                <p>Plus d'option &rarr;</p>
-            </a>
-        </div>
-
-        <h1>Pièces détachées</h1>
-        <div class="liste_produits" style="overflow-y: hidden;" id="pieces-detachees">
-            <!-- Products will be loaded here -->
-        </div>
-        <div class="moreoption">
-            <a href="./products.html?category=Pièces détachées" class="option">
-                <p>Plus d'option &rarr;</p>
-            </a>
-        </div>
-    </section>
-
-    <footer style="background-color: #333; color: white; padding: 20px; text-align: center;">
-        <div>
-            <p>&copy; 2025 Revive. Tous droits réservés.</p>
-            <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 15px;">
-                <li><a href="mentions-legales.html" style="color: #f2f2f2; text-decoration: none;">Mentions légales</a></li>
-                <li><a href="politique-confidentialite.html" style="color: #f2f2f2; text-decoration: none;">Politique de confidentialité</a></li>
-                <li><a href="conditions-utilisation.html" style="color: #f2f2f2; text-decoration: none;">Conditions générales d'utilisation</a></li>
-                <li><a href="charte-legale.html" style="color: #f2f2f2; text-decoration: none;">Charte légale</a></li>
-            </ul>
-        </div>
-    </footer>
-
+    <footer id="footer"></footer>
+    
     <script type="module" src="./src/js/pages/acheter.js"></script>
 </body>
 </html>
