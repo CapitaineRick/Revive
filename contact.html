@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Revive</title>
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header"></header>
+    
+    <main>
+        <section>
+            <div class="container">
+                <div class="form-container">
+                    <div id="contact-message" style="text-align: center; margin-bottom: 20px;"></div>
+                    <h2>Contactez-Nous !</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom :</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email :</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet :</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message :</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="reseaux">
+                <h2>Nos Réseaux</h2>
+                <div>
+                    <img class="logo-reseau" src="https://images.pexels.com/photos/4439901/pexels-photo-4439901.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Email">
+                    <label>revive.co@gmail.com</label>
+                </div>
+                <div>
+                    <img class="logo-reseau" src="https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Phone">
+                    <label>01 42 22 99 88 XX</label>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/reviveipssi?igsh=MWU5d2NoMzlucnhneA==" target="_blank">
+                        <img class="logo-reseau" src="https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Instagram">
+                        <label>@reviveipssi</label>
+                    </a>
+                </div>
+                <div>
+                    <img class="logo-reseau" src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=50" alt="Twitter">
+                    <label>Twitter</label>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer"></footer>
+    
+    <script type="module" src="./src/js/pages/contact.js"></script>
+</body>
+</html>

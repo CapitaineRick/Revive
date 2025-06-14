@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "nom": "Lenovo ThinkPad X1",
+    "prix": 1499.99,
+    "coup_de_coeur": true,
+    "groupe": "Ordinateur Pro",
+    "type_produit": "Ordinateur",
+    "etat_produit": "Neuf",
+    "description": "Écran 14\", Intel Core i7, 16 Go RAM, 512 Go SSD, autonomie jusqu'à 15 heures, poids léger de 1,1 kg.",
+    "image": "laptop-1.jpg"
+  },
+  {
+    "id": 2,
+    "nom": "PlayStation 5",
+    "prix": 499.99,
+    "coup_de_coeur": true,
+    "groupe": "Sony Consoles",
+    "type_produit": "Consoles",
+    "etat_produit": "Neuf",
+    "description": "Console de jeu nouvelle génération avec support 4K, SSD ultra-rapide de 825 Go, manette DualSense incluse.",
+    "image": "ps5.jpg"
+  },
+  {
+    "id": 3,
+    "nom": "Manette Xbox Série X",
+    "prix": 59.99,
+    "coup_de_coeur": false,
+    "groupe": "Accessoires Xbox",
+    "type_produit": "Accessoires",
+    "etat_produit": "Neuf",
+    "description": "Manette sans fil avec ergonomie améliorée, compatible PC et Xbox Series X/S, batterie AA.",
+    "image": "xbox-controller.jpg"
+  },
+  {
+    "id": 4,
+    "nom": "SSD Samsung 980 Pro 1TB",
+    "prix": 149.99,
+    "coup_de_coeur": true,
+    "groupe": "Stockage rapide",
+    "type_produit": "Pièces détachées",
+    "etat_produit": "Neuf",
+    "description": "SSD NVMe avec vitesse de lecture jusqu'à 7000 Mo/s, interface PCIe 4.0, format M.2.",
+    "image": "ssd.jpg"
+  },
+  {
+    "id": 5,
+    "nom": "Dell Inspiron 15 3000",
+    "prix": 599.99,
+    "coup_de_coeur": false,
+    "groupe": "Ordinateur Familial",
+    "type_produit": "Ordinateur",
+    "etat_produit": "Reconditionné",
+    "description": "Écran 15,6\", Intel Core i5, 8 Go RAM, 256 Go SSD, Windows 11 préinstallé.",
+    "image": "laptop-2.jpg"
+  },
+  {
+    "id": 6,
+    "nom": "Nintendo Switch OLED",
+    "prix": 349.99,
+    "coup_de_coeur": true,
+    "groupe": "Nintendo Consoles",
+    "type_produit": "Consoles",
+    "etat_produit": "Neuf",
+    "description": "Console portable avec écran OLED de 7\", mémoire interne de 64 Go, joy-cons détachables.",
+    "image": "switch.jpg"
+  },
+  {
+    "id": 7,
+    "nom": "Casque Razer Kraken",
+    "prix": 89.99,
+    "coup_de_coeur": true,
+    "groupe": "Accessoires Gaming",
+    "type_produit": "Accessoires",
+    "etat_produit": "Neuf",
+    "description": "Casque audio gaming avec son surround 7.1, coussinets en gel refroidissant, micro rétractable.",
+    "image": "headset.jpg"
+  },
+  {
+    "id": 8,
+    "nom": "Ventilateur Cooler Master",
+    "prix": 39.99,
+    "coup_de_coeur": false,
+    "groupe": "Refroidissement",
+    "type_produit": "Pièces détachées",
+    "etat_produit": "Neuf",
+    "description": "Ventilateur silencieux 120 mm, compatible avec boîtiers ATX, flux d'air optimisé.",
+    "image": "fan.jpg"
+  },
+  {
+    "id": 9,
+    "nom": "MacBook Pro 14\" 2023",
+    "prix": 2399.99,
+    "coup_de_coeur": true,
+    "groupe": "Apple Ordinateurs",
+    "type_produit": "Ordinateur",
+    "etat_produit": "Neuf",
+    "description": "Écran Retina XDR 14\", puce Apple M2 Pro, 16 Go RAM, 1 To SSD, autonomie 18 heures.",
+    "image": "macbook.jpg"
+  },
+  {
+    "id": 10,
+    "nom": "Xbox Series S",
+    "prix": 299.99,
+    "coup_de_coeur": false,
+    "groupe": "Microsoft Consoles",
+    "type_produit": "Consoles",
+    "etat_produit": "Occasion",
+    "description": "Console de jeu compacte, support 1440p à 120 FPS, 512 Go SSD, entièrement numérique.",
+    "image": "xbox-s.jpg"
+  },
+  {
+    "id": 11,
+    "nom": "Câble HDMI 2.1",
+    "prix": 19.99,
+    "coup_de_coeur": false,
+    "groupe": "Connectique",
+    "type_produit": "Accessoires",
+    "etat_produit": "Neuf",
+    "description": "Câble HDMI 2.1 compatible 4K/120Hz et 8K/60Hz, longueur de 2 mètres, support HDR.",
+    "image": "hdmi.jpg"
+  },
+  {
+    "id": 12,
+    "nom": "Carte mère MSI MPG Z790",
+    "prix": 259.99,
+    "coup_de_coeur": true,
+    "groupe": "Composants PC",
+    "type_produit": "Pièces détachées",
+    "etat_produit": "Neuf",
+    "description": "Carte mère ATX compatible Intel 13ème génération, DDR5, PCIe 5.0, ports USB-C.",
+    "image": "motherboard.jpg"
+  },
+  {
+    "id": 13,
+    "nom": "Asus ROG Zephyrus G14",
+    "prix": 1799.99,
+    "coup_de_coeur": true,
+    "groupe": "Gaming Laptops",
+    "type_produit": "Ordinateur",
+    "etat_produit": "Neuf",
+    "description": "Ordinateur portable 14\" avec AMD Ryzen 9, RTX 3060, 16 Go RAM, 1 To SSD, clavier rétroéclairé.",
+    "image": "gaming-laptop.jpg"
+  },
+  {
+    "id": 14,
+    "nom": "Steam Deck 512GB",
+    "prix": 649.99,
+    "coup_de_coeur": true,
+    "groupe": "Consoles Valve",
+    "type_produit": "Consoles",
+    "etat_produit": "Neuf",
+    "description": "Console de jeu portable avec écran 7\", processeur AMD Zen 2, 16 Go RAM, 512 Go SSD.",
+    "image": "steam-deck.jpg"
+  },
+  {
+    "id": 15,
+    "nom": "Processeur AMD Ryzen 7 5800X",
+    "prix": 349.99,
+    "coup_de_coeur": true,
+    "groupe": "Composants PC",
+    "type_produit": "Pièces détachées",
+    "etat_produit": "Neuf",
+    "description": "8 cœurs, 16 threads, 4,7 GHz boost, architecture Zen 3, compatible socket AM4.",
+    "image": "cpu.jpg"
+  }
+]
