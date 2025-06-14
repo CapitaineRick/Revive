@@ -5,7 +5,9 @@ body {
     background-image: url("./assests/fond_decran_naturel_noir_et_vert_background_dun_site__f87f2190-1312-4983-ac0c-6bc423ca8eac.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100vw;
+    min-height: 100vh;
 }
 
 header {
@@ -619,14 +621,15 @@ canvas{
     gap: 10px;
 }
 
+/* Hero section - PAS d'image de fond, utilise le fond du body */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assests/Nature.jpg') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
+    background: transparent; /* Pas d'image de fond spécifique */
 }
 
 .hero h2 {
